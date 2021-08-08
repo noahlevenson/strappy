@@ -1,0 +1,5 @@
+libfood
+startup
+network.secret.json
+strappy.secret.json
+*.*.swp
