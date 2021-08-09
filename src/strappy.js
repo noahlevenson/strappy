@@ -23,7 +23,7 @@ const STARTUP_SCRIPT_PATH = "../startup/strappy.startup.js";
 (async () => {
   // TODO: Validate network.secret.json and strappy.secret.json
 
-  const startup_file_exists = fs.existsSync(STARTUP_SCRIPT_PATH)
+  const startup_file_exists = fs.existsSync(STARTUP_SCRIPT_PATH);
   Flog.log(`[STRAPPY] ${startup_file_exists ? "Startup script found, I hope it's valid JS!" : 
     "No startup script found!"}`);
 
