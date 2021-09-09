@@ -65,6 +65,7 @@ const STARTUP_SCRIPT_PATH = "../startup/strappy.startup.js";
 
     vm.runInNewContext(startup_js, {
       require: require, 
+      setInterval: setInterval,
       Buffer: Buffer,
       fapp: fapp,
       strappy_pub: strappy_pub, 
