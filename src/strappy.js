@@ -54,7 +54,8 @@ const STARTUP_SCRIPT_PATH = "../startup/strappy.startup.js";
     fid_prv: strappy_prv, 
     is_keyserver_validator: strappy_secrets.IS_KEYSERVER_VALIDATOR,
     bootstrap_nodes: network_secrets.BOOTSTRAP_NODES,
-    authorities: network_secrets.AUTHORITIES
+    authorities: network_secrets.AUTHORITIES,
+    trusted_root_keys: network_secrets.TRUSTED_ROOT_KEYS
   });
 
   await fapp.start({addr: strappy_secrets.PUBLIC_HOST, port: strappy_secrets.PUBLIC_PORT});
