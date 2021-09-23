@@ -2,7 +2,7 @@
 
 const readline = require("readline");
 const fs = require("fs");
-const cfg = require("../../libfood/libfood.json");
+const cfg = require("../libfood.json");
 const { Fapp } = require("../../libfood/src/fapp/fapp.js");
 const { Fid } = require("../../libfood/src/fid/fid.js");
 const { Fid_pub } = require("../../libfood/src/fid/fid_pub.js");
@@ -59,7 +59,7 @@ function ask(rl, q) {
     long: proto.LONG,
   });
 
-  Flog.log(`[STRAPPGEN] Generating ${cfg.FID_POW_ZERO_BITS}-bit POW...`);
+  Flog.log(`[STRAPPYGEN] Generating ${cfg.FID_POW_ZERO_BITS}-bit POW...`);
   const pow_cert = await Fid.find_partial_preimage(cert, Fid_pub.inc_nonce, cfg.FID_POW_ZERO_BITS);
   
   proto.PUBKEY = pair.publicKey;
