@@ -38,7 +38,7 @@ const STARTUP_SCRIPT_PATH = "../startup/strappy.startup.js";
   });
 
   strappy_pub.nonce = strappy_secrets.NONCE;
-  strappy_prv = new Fid_prv({privkey: strappy_secrets.ENCRYPTED_PRIVKEY});
+  const strappy_prv = new Fid_prv({privkey: strappy_secrets.ENCRYPTED_PRIVKEY});
  
   const privkey = await Fcrypto.decrypt_private_key(
     Buffer.from(strappy_prv.privkey, "hex"), 
