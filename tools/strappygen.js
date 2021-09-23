@@ -36,8 +36,8 @@ function ask(rl, q) {
 
 (async () => {
   if (fs.existsSync(CONFIG_PATH)) {
-    Flog.log(`[STRAPPYGEN] ${CONFIG_PATH} already exists! You must delete your ` + 
-      `existing configuration before generating a new one.`);
+    Flog.log(`[STRAPPYGEN] ${CONFIG_PATH} already exists!`);
+    Flog.log(`[STRAPPYGEN] You must delete your existing configuration before generating a new one.`);
     Flog.log(`[STRAPPYGEN] Exiting...`);
     return;
   }
