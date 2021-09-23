@@ -2,4 +2,5 @@ libfood
 libfood.bak
 network.secret.json
 strappy.secret.json
-*.*.swp
+tools/strappy.secret.json
+.*.swp
