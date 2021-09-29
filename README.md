@@ -1,5 +1,7 @@
 # strappy
 
+[![Youtube demo](https://github.com/noahlevenson/strappy/blob/master/youtube_thumb.png)](https://www.youtube.com/watch?v=kQWziK4Fnmw "Youtube demo")
+
 Strappy is an extensible bootstrap node for [Free Food](https://github.com/noahlevenson/libfood). 
 
 If you want to support the [Free Food](https://github.com/noahlevenson/libfood) mainline by operating a bootstrap node &mdash; or if you want to spin up your own private network running the [Free Food](https://github.com/noahlevenson/libfood) protocol &mdash; Strappy is the right place to start. Watch the Strappy tutorial video (above) to learn the basics.
