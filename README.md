@@ -1,6 +1,6 @@
 # strappy
 
-[![Youtube demo](https://github.com/noahlevenson/strappy/blob/master/youtube_thumb.png)](https://www.youtube.com/watch?v=kQWziK4Fnmw "Youtube demo")
+[![Youtube demo](https://github.com/noahlevenson/strappy/blob/main/youtube_thumb.png)](https://www.youtube.com/watch?v=kQWziK4Fnmw "Youtube demo")
 
 Strappy is an extensible bootstrap node for [Free Food](https://github.com/noahlevenson/libfood). 
 
