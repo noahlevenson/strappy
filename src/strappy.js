@@ -61,7 +61,7 @@ const STARTUP_SCRIPT_PATH = "../startup/strappy.startup.js";
   });
 
   await fapp.start({addr: strappy_secrets.PUBLIC_HOST, port: strappy_secrets.PUBLIC_PORT});
-  await fapp.get_keyserver_data();
+  await fapp.init_keyserver();
 
   if (startup_file_exists) {
     const startup_js = fs.readFileSync(STARTUP_SCRIPT_PATH);
