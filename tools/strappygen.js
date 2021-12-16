@@ -2,7 +2,7 @@
 
 const readline = require("readline");
 const fs = require("fs");
-const cfg = require("../libfood.json");
+const cfg = require("../libfood/libfood.json");
 const { Fapp } = require("../libfood/src/fapp/fapp.js");
 const { Fid } = require("../libfood/src/fid/fid.js");
 const { Fid_pub } = require("../libfood/src/fid/fid_pub.js");

@@ -2,7 +2,7 @@
 
 const readline = require("readline");
 const fs = require("fs");
-const cfg = require("../libfood.json");
+const cfg = require("../libfood/libfood.json");
 const { Flog } = require("../libfood/src/flog/flog.js");
 
 const OUTPUT_PATH = "../";
